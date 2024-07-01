@@ -1,0 +1,9 @@
+name: lsf-mwe
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.11.0
+  - pymeep==1.28.0
+  - numpy
+  - matplotlib

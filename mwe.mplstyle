@@ -1,0 +1,41 @@
+figure.figsize      : 3.5,2.625
+figure.dpi          : 227
+
+axes.linewidth      : 1
+axes.grid           : False
+axes.spines.top     : False
+axes.spines.right   : False
+axes.spines.bottom  : True
+axes.spines.left    : True
+
+axes.prop_cycle     : (cycler('color', ['3D6596', 'EC7B22', 'D74047', '65A9A3', '49943D', 'E8BF39', '9F6490', 'FF9DA8', '9D755F', 'BAB0AB']))
+#+ cycler('linestyle', ['-', '--', '-.', ':', '-', '--', '-.', ':', '-', ':']))
+
+xtick.top           : False
+xtick.bottom        : True
+xtick.major.size    : 6
+xtick.minor.size    : 3
+xtick.major.width   : 1
+xtick.minor.width   : 1
+xtick.direction     : in
+
+ytick.left          : True
+ytick.right         : False
+ytick.major.size    : 6
+ytick.minor.size    : 3
+ytick.major.width   : 1
+ytick.minor.width   : 1
+ytick.direction     : in
+
+grid.color          : eeeeee
+
+legend.frameon      : False
+
+font.family         : sans-serif
+font.sans-serif     : Helvetica, Arial, DejaVu Sans, Liberation Sans, Bitstream Vera Sans, sans-serif
+font.size           : 9.0
+
+lines.linewidth     : 2
+lines.solid_joinstyle : round
+
+mathtext.fontset : stix
